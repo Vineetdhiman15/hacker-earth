@@ -1,0 +1,1 @@
+export const GET_PAGE_LOAD_DATA = 'GET_PAGE_LOAD_DATA';

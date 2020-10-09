@@ -1,0 +1,46 @@
+.mainContainer {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 20px;
+	.columnContainer{
+		display: flex;
+		.totalTable{
+			margin-left: 50px;
+		}
+	table{
+		border-collapse: collapse;
+		td{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+		tbody:before {
+    content:"@";
+    display:block;
+    line-height:10px;
+    text-indent:-99999px;
+}
+		thead {
+			tr{
+				border-top: 1px solid #999999;;
+				border-bottom: 1px solid #999999;;
+			}
+			margin-bottom: 10px;
+		}
+.itemName{
+	width: 200px;
+    border: 1px solid #999999;;
+}
+.quantity{
+	button{
+    margin: 0px 10px;
+		background: transparent;
+border: none;
+cursor: pointer;
+	}
+	.details{
+	padding: 0px 5px;
+    border: 1px solid #999999;;
+	}
+}
+}
+}
+}
